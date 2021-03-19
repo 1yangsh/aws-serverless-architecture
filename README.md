@@ -8,3 +8,6 @@
 - <a href = "https://github.com/1yangsh/TIL/blob/master/aws/aws-serverless-architecture/6-lambda.md">aws lambda</a>
 - <a href = "https://github.com/1yangsh/TIL/blob/master/aws/aws-serverless-architecture/7-api-gateway.md">aws api gateway</a>
 - <a href = "https://github.com/1yangsh/TIL/blob/master/aws/aws-serverless-architecture/8-storage.md">aws storage</a>
+
+## reference
+- AWS 기반 서버리스 아키텍처

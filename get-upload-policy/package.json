@@ -1,0 +1,17 @@
+{
+  "name": "get-upload-policy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "aws lambda create-function --function-name get-upload-policy --handler index.handler --memory-size 128 --runtime nodejs12.x --role arn:aws:iam::457117745386:role/lambda-s3-execution-role --timeout 3 --publish --zip-file fileb://Lambda-Deployment.zip",
+    "precreate": "zip -r Lambda-Deployment.zip * -x *.zip *.log node_modules/aws-sdk/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "crypto-js": "^4.0.0"
+  }
+}

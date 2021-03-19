@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#auth0-logout {
+  display: none;
+}
+#user-profile {
+  display: none;
+}
+#profilepicture {
+  height: 20px;
+  width: 20px;
+}
+
+/* 업로드 버튼 및 진행률 표시를 위한 스타일을 추가 */
+
+#upload-video-button {
+  /* display: none; */
+  margin-bottom: 30px;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+#upload-progress {
+  display: none;
+}
+
+#video-list-container {
+  text-align: center;
+  padding: 30px 0 30px;
+}
+
+.progress {
+  background: #1a1a1a;
+  margin-top: 6px;
+  margin-bottom: 36px;
+}
